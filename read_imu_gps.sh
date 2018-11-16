@@ -1,13 +1,13 @@
 #!/bin/bash
 
 #Wait 3 minutes before starting
-sleep 30s
+sleep 1s
 
 #Kills all processes logging data that are running
 pkill -f str2str
 
 #Goes to home folder
-#cd ~
+cd ~
 
 #Obtaining the time of the output
 collect_time=$(date +%y-%m-%d-%H-%M-%S)
