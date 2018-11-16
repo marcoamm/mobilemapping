@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #Wait 3 minutes before starting
-sleep 120s
+sleep 30s
 
 #Kills all processes logging data that are running
 pkill -f str2str
